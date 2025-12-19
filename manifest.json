@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini AI Assistant",
+    "description": "Chrome extension powered by Google Gemini",
+    "version": "1.0",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
